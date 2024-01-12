@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("nhap a");
+        let b = +prompt("nhap b");
+        let dau = prompt("nhap dau");
+        let kq = +prompt("ket qua");
+        switch(dau){
+            case '+':
+                if(a+b==kq){
+                    console.log("hop le");
+                }else{
+                    console.log("ko hop le");
+                }
+                break;
+            case '-':
+                if(a-b==kq){
+                    console.log("hop le");
+                }else{
+                    console.log("ko hop le");
+                }
+                break;
+            case '*':
+                if(a*b==kq){
+                    console.log("hop le");
+                }else{
+                    console.log("ko hop le");
+                }
+                break;
+            case '/':
+                if(a/b==kq){
+                    console.log("hop le");
+                }else{
+                    console.log("ko hop le");
+                }
+                break;
+            default:
+                console.log("ko hop le");
+                break;
+        }
+    </script>
+</body>
+</html>
